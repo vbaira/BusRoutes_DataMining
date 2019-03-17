@@ -5,7 +5,7 @@ Demonstration of various data mining techniques on Dublin bus routes.Nearest nei
 ~~~
 python visualization.py <train_data>
 ~~~
->Selects 5 random  bus routes and visualizes them using **gmplot library**.  
+>Selects 5 random  bus routes and visualizes them using **[gmplot library](https://pypi.org/project/gmplot/)**.  
 Afterwards it opens the .html files that gmplot made, using Firefox , and takes screenshots of them.This procedure is done using **[selenium library](https://pypi.org/project/selenium/)**.  
 Lastly it creates a 3x2 grid of the screenshots using **[Pillow library](https://pypi.org/project/Pillow/)**.  
 All the output files are stored in output directory.
